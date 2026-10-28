@@ -9,10 +9,18 @@ public class ArrayListFirst {
         arraylist.add(65);
         arraylist.add(43);
         arraylist.add(29);
-        System.out.println(arraylist.get(0));
+        //System.out.println(arraylist.get(0));
 
-        for (int i = 0; i < arraylist.size(); i++) {
-            System.out.println("Value at index "+i+" is: "+arraylist.get(i));
+//        for (int i = 0; i < arraylist.size(); i++) {
+//            System.out.println("Value at index "+i+" is: "+arraylist.get(i));
+//        }
+
+        for(int f: arraylist){
+//            System.out.println("Value at index "+f+ " is: "+arraylist.get(f));
+            System.out.println(f);
         }
+        System.out.println(arraylist.contains(5));
+        System.out.println(arraylist.contains(59));
+        System.out.println(arraylist.contains(43));
     }
 }
